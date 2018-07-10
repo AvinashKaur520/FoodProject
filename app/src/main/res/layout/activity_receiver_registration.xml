@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mypc.foodproject.ReceiverRegistration">
+
+
+    <VideoView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/videoView"/>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Receiver Registration..."
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="You're just one step away from signing up."
+                android:textSize="17dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="25dp"
+                android:hint="Enter ID"
+                android:drawableLeft="@drawable/email"
+                android:layout_marginLeft="30dp"
+                android:drawablePadding="12dp"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#fff"
+                android:background="@color/transparent"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="40dp"/>
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="25dp"
+                android:hint="Mobile"
+                android:textColorHint="#fff"
+                android:drawableLeft="@drawable/phone"
+                android:drawablePadding="12dp"
+                android:layout_marginLeft="30dp"
+                android:inputType="number"
+                android:background="@color/transparent"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="40dp"/>
+
+            <EditText
+                android:id="@+id/edit3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="25dp"
+                android:hint="First Name"
+                android:textColorHint="#fff"
+                android:drawableLeft="@drawable/name"
+                android:drawablePadding="12dp"
+                android:layout_marginLeft="30dp"
+                android:inputType="text"
+                android:background="@color/transparent"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="40dp"/>
+
+            <EditText
+                android:id="@+id/edit4"
+                android:layout_width="match_parent"
+                android:textColorHint="#fff"
+                android:layout_height="30dp"
+                android:layout_marginTop="25dp"
+                android:drawableLeft="@drawable/name"
+                android:drawablePadding="12dp"
+                android:hint="Last Name"
+                android:layout_marginLeft="30dp"
+                android:inputType="text"
+                android:background="@color/transparent"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="40dp"/>
+
+            <EditText
+                android:id="@+id/edit5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="25dp"
+                android:hint="Password"
+                android:textColorHint="#fff"
+                android:drawableLeft="@drawable/pass"
+                android:drawablePadding="12dp"
+                android:layout_marginLeft="30dp"
+                android:inputType="text"
+                android:background="@color/transparent"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="40dp"/>
+
+            <EditText
+                android:id="@+id/edit6"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="25dp"
+                android:hint="Address"
+                android:textColorHint="#fff"
+                android:drawableLeft="@drawable/home"
+                android:drawablePadding="12dp"
+                android:layout_marginLeft="30dp"
+                android:inputType="text"
+                android:background="@color/transparent"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="40dp"/>
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/my_button"
+                android:backgroundTint="#fff"
+                android:clickable="true"
+                android:padding="16dp"
+                android:layout_margin="25dp"
+                android:text="Sign up"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="By Signing up you will agree to our"
+                android:textSize="13dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:textColor="#fff"
+                android:layout_marginTop="-19dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="220dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="and"
+                android:textColor="@color/white"
+                android:layout_marginTop="-19dp"
+                android:layout_marginLeft="320dp"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="Terms."
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
